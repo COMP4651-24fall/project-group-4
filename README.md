@@ -2,19 +2,25 @@
 
 ## Overview
 
-This project addresses the growing concern of problematic internet use among children and adolescents by developing a machine learning model to predict the Severity Impairment Index (SII). Leveraging a combination of tabular and time-series data, the model integrates statistical features, engineered features, and actigraphy-based latent representations to improve prediction accuracy. The project implements advanced techniques such as KNN imputation, Autoencoder-based dimensionality reduction, and PySpark pipelines for large-scale data processing.
+This project aims to predict the Severity Impairment Index (SII) as part of the [Kaggle Competition: Child Mind Institute - Problematic Internet Use](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use). The competition challenges participants to develop models capable of analyzing children's physical activity data to detect early indicators of problematic internet and technology use.
+
+Leveraging a combination of tabular and time-series data, the project integrates statistical features, engineered features, and actigraphy-based latent representations to improve prediction accuracy. Advanced machine learning techniques and PySpark pipelines were utilized for data preprocessing and model training.
 
 Key contributions of this project include:
-- Feature engineering to create meaningful predictors from raw data.
-- Use of PySpark for efficient data processing and model training.
-- Evaluation using the Quadratic Weighted Kappa (QWK) score to measure model agreement with the target variable.
+- Comprehensive data preprocessing, including handling missing values and redundant features.
+- Robust feature engineering from actigraphy data, transforming time-series data into actionable features.
+- Efficient model training and evaluation using PySpark and PyTorch, with results assessed via the Quadratic Weighted Kappa (QWK) score.
 
 ## Features
 
-- Data preprocessing: Handling missing data and removing redundant features.
-- Feature engineering: Statistical and derived features from actigraphy time-series data.
-- Model training: Logistic Regression implemented in PySpark.
-- Evaluation: QWK score to assess ordinal prediction performance.
+- **Data Preprocessing**: Managing missing values, imputations, and redundant features.
+- **Feature Engineering**: Statistical, derived, and actigraphy-based features for improved predictions.
+- **Model Training**: Logistic Regression model implemented using PySpark MLlib.
+- **Evaluation**: Performance evaluated using the Quadratic Weighted Kappa (QWK) score, which accounts for the ordinal nature of the target variable.
+
+## Kaggle Competition Link
+
+You can learn more about the competition [here](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use).
 
 ## Appendix
 
