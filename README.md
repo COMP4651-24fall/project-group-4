@@ -21,6 +21,8 @@ Key contributions of this project include:
 ## Kaggle Competition Link
 
 You can learn more about the competition [here](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use).
+You can download the raw datas from:
+https://drive.google.com/drive/folders/1PCV8kkYhH1qHmKoJOjjsvJVKbASkiAq6?usp=drive_link
 
 ## Appendix
 
@@ -30,6 +32,12 @@ This project was developed and tested on a local machine with the following conf
 - **Processor**: AMD Ryzen 7 5800H
 
 ### Dependencies
+The following app are required to build environment:
+Spark = 3.5.3
+Java = jre1.8.0_431
+
+tutorial:
+https://youtu.be/OmcSTQVkrvo?si=C_TkPIePhm0W1WtC
 
 The following dependencies are required to run the project:
 - Python (3.9)
