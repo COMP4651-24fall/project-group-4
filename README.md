@@ -32,7 +32,7 @@ This project was developed and tested on a local machine with the following conf
 ### Dependencies
 
 The following dependencies are required to run the project:
-- Python (3.8+)
+- Python (3.9)
 - PySpark
 - Torch
 - Pandas
